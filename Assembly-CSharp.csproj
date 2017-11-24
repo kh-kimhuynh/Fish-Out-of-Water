@@ -54,6 +54,8 @@
      <Compile Include="Assets\script\DataManager.cs" />
      <Compile Include="Assets\script\DontDestroy.cs" />
      <Compile Include="Assets\script\LoadScene.cs" />
+     <None Include="Assets\Fonts\readme.txt" />
+     <None Include="Assets\Fonts\Terms of Use End User Lisence Agreement.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
