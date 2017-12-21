@@ -116,8 +116,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 225760237}
-  - component: {fileID: 225760236}
   - component: {fileID: 225760238}
+  - component: {fileID: 225760236}
   m_Layer: 0
   m_Name: Launcher
   m_TagString: Untagged
@@ -136,8 +136,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e108f4f0a535b6e43904fd2e5911dac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToLoad: Title
-  Delay: 3
+  SceneToLoad: Round
+  Delay: 1
 --- !u!4 &225760237
 Transform:
   m_ObjectHideFlags: 0
