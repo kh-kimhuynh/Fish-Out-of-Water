@@ -5,22 +5,24 @@ using UnityEngine;
 public class ApplyForce : MonoBehaviour
 {
     public KeyCode LeftTurnKey;
+    public KeyCode RightTurnKey;
+    public KeyCode LaunchKey;
     public Rigidbody2D rigidBody;
     public float forceRight;
     public float forceUp;
     public float torque;
-
+    
     void Update()
     {
-        if (Input.GetKey(LeftTurnKey))
+        if (Input.GetKeyDown(LaunchKey))
         {
-            rigidBody.AddTorque(torque);
-        }        
+            rigidBody.AddForce(transform.right * forceRight);
+            rigidBody.AddForce(transform.up * forceUp);
+        }
     }
 
     void Start()
     {
-        rigidBody.AddForce(transform.right * forceRight);
-        rigidBody.AddForce(transform.up * forceUp);
+        
     }
 }
